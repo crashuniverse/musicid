@@ -1,0 +1,30 @@
+{
+  "name": "musicid",
+  "version": "1.0.0",
+  "description": "MusicID is the music identity, a compressed way to share what you like so much about the music. The big names. The keys music is written in. The instruments.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crashuniverse/musicid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crashuniverse/musicid/issues"
+  },
+  "homepage": "https://github.com/crashuniverse/musicid#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
